@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\C# Project\\Latihan Project\\",
+  "WorkspaceRootPath": "D:\\C# Project\\Inventory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BFA96AB7-D35F-0E15-778F-CB8DA8937081}|Latihan Project\\Latihan Project.csproj|d:\\c# project\\latihan project\\latihan project\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BFA96AB7-D35F-0E15-778F-CB8DA8937081}|Latihan Project\\Latihan Project.csproj|d:\\c# project\\inventory\\latihan project\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFA96AB7-D35F-0E15-778F-CB8DA8937081}|Latihan Project\\Latihan Project.csproj|solutionrelative:latihan project\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFA96AB7-D35F-0E15-778F-CB8DA8937081}|Latihan Project\\Latihan Project.csproj|d:\\c# project\\latihan project\\latihan project\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BFA96AB7-D35F-0E15-778F-CB8DA8937081}|Latihan Project\\Latihan Project.csproj|d:\\c# project\\inventory\\latihan project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFA96AB7-D35F-0E15-778F-CB8DA8937081}|Latihan Project\\Latihan Project.csproj|solutionrelative:latihan project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFA96AB7-D35F-0E15-778F-CB8DA8937081}|Latihan Project\\Latihan Project.csproj|d:\\c# project\\inventory\\latihan project\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFA96AB7-D35F-0E15-778F-CB8DA8937081}|Latihan Project\\Latihan Project.csproj|solutionrelative:latihan project\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFA96AB7-D35F-0E15-778F-CB8DA8937081}|Latihan Project\\Latihan Project.csproj|d:\\c# project\\latihan project\\latihan project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{BFA96AB7-D35F-0E15-778F-CB8DA8937081}|Latihan Project\\Latihan Project.csproj|d:\\c# project\\inventory\\latihan project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{BFA96AB7-D35F-0E15-778F-CB8DA8937081}|Latihan Project\\Latihan Project.csproj|solutionrelative:latihan project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFA96AB7-D35F-0E15-778F-CB8DA8937081}|Latihan Project\\Latihan Project.csproj|d:\\c# project\\latihan project\\latihan project\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BFA96AB7-D35F-0E15-778F-CB8DA8937081}|Latihan Project\\Latihan Project.csproj|d:\\c# project\\inventory\\latihan project\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFA96AB7-D35F-0E15-778F-CB8DA8937081}|Latihan Project\\Latihan Project.csproj|solutionrelative:latihan project\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFA96AB7-D35F-0E15-778F-CB8DA8937081}|Latihan Project\\Latihan Project.csproj|d:\\c# project\\latihan project\\latihan project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFA96AB7-D35F-0E15-778F-CB8DA8937081}|Latihan Project\\Latihan Project.csproj|solutionrelative:latihan project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,65 +40,64 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "InventoryController.cs",
-              "DocumentMoniker": "D:\\C# Project\\Latihan Project\\Latihan Project\\Controllers\\InventoryController.cs",
+              "DocumentMoniker": "D:\\C# Project\\Inventory\\Latihan Project\\Controllers\\InventoryController.cs",
               "RelativeDocumentMoniker": "Latihan Project\\Controllers\\InventoryController.cs",
-              "ToolTip": "D:\\C# Project\\Latihan Project\\Latihan Project\\Controllers\\InventoryController.cs",
+              "ToolTip": "D:\\C# Project\\Inventory\\Latihan Project\\Controllers\\InventoryController.cs",
               "RelativeToolTip": "Latihan Project\\Controllers\\InventoryController.cs",
-              "ViewState": "AgIAALUAAAAAAAAAAAAYwMoAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAmwFEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-11T04:15:24.781Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Product.cs",
-              "DocumentMoniker": "D:\\C# Project\\Latihan Project\\Latihan Project\\Models\\Product.cs",
+              "DocumentMoniker": "D:\\C# Project\\Inventory\\Latihan Project\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Latihan Project\\Models\\Product.cs",
-              "ToolTip": "D:\\C# Project\\Latihan Project\\Latihan Project\\Models\\Product.cs",
+              "ToolTip": "D:\\C# Project\\Inventory\\Latihan Project\\Models\\Product.cs",
               "RelativeToolTip": "Latihan Project\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-11T04:14:06.264Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Category.cs",
-              "DocumentMoniker": "D:\\C# Project\\Latihan Project\\Latihan Project\\Models\\Category.cs",
+              "DocumentMoniker": "D:\\C# Project\\Inventory\\Latihan Project\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Latihan Project\\Models\\Category.cs",
-              "ToolTip": "D:\\C# Project\\Latihan Project\\Latihan Project\\Models\\Category.cs",
+              "ToolTip": "D:\\C# Project\\Inventory\\Latihan Project\\Models\\Category.cs",
               "RelativeToolTip": "Latihan Project\\Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T04:14:03.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-11T04:14:03.017Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\C# Project\\Latihan Project\\Latihan Project\\appsettings.json",
+              "DocumentMoniker": "D:\\C# Project\\Inventory\\Latihan Project\\appsettings.json",
               "RelativeDocumentMoniker": "Latihan Project\\appsettings.json",
-              "ToolTip": "D:\\C# Project\\Latihan Project\\Latihan Project\\appsettings.json",
+              "ToolTip": "D:\\C# Project\\Inventory\\Latihan Project\\appsettings.json",
               "RelativeToolTip": "Latihan Project\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-11-11T03:50:29.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-11T03:50:29.616Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\C# Project\\Latihan Project\\Latihan Project\\Program.cs",
+              "DocumentMoniker": "D:\\C# Project\\Inventory\\Latihan Project\\Program.cs",
               "RelativeDocumentMoniker": "Latihan Project\\Program.cs",
-              "ToolTip": "D:\\C# Project\\Latihan Project\\Latihan Project\\Program.cs",
+              "ToolTip": "D:\\C# Project\\Inventory\\Latihan Project\\Program.cs",
               "RelativeToolTip": "Latihan Project\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T03:14:48.967Z"
+              "WhenOpened": "2026-11-11T03:14:48.967Z",
+              "EditorCaption": ""
             }
           ]
         }

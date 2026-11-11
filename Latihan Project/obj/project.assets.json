@@ -3631,11 +3631,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C# Project\\Latihan Project\\Latihan Project\\Latihan Project.csproj",
+      "projectUniqueName": "D:\\C# Project\\Inventory\\Latihan Project\\Latihan Project.csproj",
       "projectName": "Latihan Project",
-      "projectPath": "D:\\C# Project\\Latihan Project\\Latihan Project\\Latihan Project.csproj",
+      "projectPath": "D:\\C# Project\\Inventory\\Latihan Project\\Latihan Project.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "D:\\C# Project\\Latihan Project\\Latihan Project\\obj\\",
+      "outputPath": "D:\\C# Project\\Inventory\\Latihan Project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files\\Microsoft Visual Studio\\Shared\\NuGetPackages"

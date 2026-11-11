@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using System.Diagnostics;
 using Latihan_Project.Models;
+using Microsoft.VisualBasic;
 
 namespace Latihan_Project.Controllers
 {
@@ -91,15 +92,13 @@ namespace Latihan_Project.Controllers
             category.CategoryName = result.CategoryName;
             category.Description = result.Description;
 
-            dbc.Categories.Add(category);
-
             await dbc.SaveChangesAsync();
 
             return Ok("Succes Update");
         }
 
         // EndPoint delete
-        [HttpDelete("DeleteCategory")]
+        [HttpDelete("DeleteCategory/{id}")]
         public async Task<IActionResult> DeleteCategory (int id)
         {
             var category = await dbc.Categories.FindAsync(id);
@@ -200,7 +199,62 @@ namespace Latihan_Project.Controllers
 
         }
 
-        [HttpPut["UpdateProduct/"]]
+        [HttpPut("UpdateProduct/{id}")]
+        public async Task<IActionResult> UpdateProduct(int id, ProductRequest result)
+        {
+            var product = await dbc.Products.FirstOrDefaultAsync(p => p.ProductId == id);
+
+            if(product == null)
+            {
+                return NotFound("Id Product Not Found");
+            }
+
+            var category = await dbc.Categories.FirstOrDefaultAsync(c => c.CategoryId == result.CategoryId);
+
+            if(category == null)
+            {
+                return NotFound("Id category Not Found");
+            }
+
+            product.ProductName = result.ProductName;
+            product.Price = result.Price;
+            product.Stock = result.Stock;
+            product.CategoryId = result.CategoryId;
+
+            await dbc.SaveChangesAsync();
+
+            return Ok(new
+            {
+                message = "Update Succes",
+                data = new
+                {
+                    product.ProductId,
+                    product.ProductName,
+                    product.Price,
+                    product.Stock,
+                    CategoryName = category.CategoryName
+                }
+            });
+        }
+
+        // EndPoint Delete Product
+        [HttpDelete("Deleteproduct/{id}")]
+        public async Task<IActionResult> DeleteProduct (int id)
+        {
+            var product = await dbc.Products.FindAsync(id);
+
+            if (product == null)
+            {
+                return NotFound("Id product NotFoudn");
+            }
+
+            dbc.Products.Remove(product);
+
+            await dbc.SaveChangesAsync();
+
+            return Ok("Delete Succes");
+        }
+
         // Dto product requst
         public class ProductRequest
         {

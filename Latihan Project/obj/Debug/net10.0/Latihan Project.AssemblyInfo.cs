@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Latihan Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8afaa340316987bed475af038163e03fcfcb9e3b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Latihan Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Latihan Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
