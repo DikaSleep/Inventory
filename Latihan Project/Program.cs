@@ -1,28 +1,35 @@
+
 using Latihan_Project.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
+// Register Controllers
 builder.Services.AddControllers();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
 
+// Swagger Configuration
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
-// untuk menghubungkan ke database
-builder.Services.AddDbContext<InventoryContext>(Options =>
-    {
-        Options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
-    });
+// Database Connection
+builder.Services.AddDbContext<InventoryContext>(options =>
+{
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("DefaultConnection")
+    );
+});
 
 var app = builder.Build();
 
-app.MapOpenApi();
+// Swagger Middleware
+app.UseSwagger();
 
-app.UseSwaggerUI(Options =>
+app.UseSwaggerUI(options =>
 {
-    Options.SwaggerEndpoint("/openapi/v1.json", "API v1");
+    options.SwaggerEndpoint(
+        "/swagger/v1/swagger.json",
+        "Inventory API V1"
+    );
 });
 
 app.UseHttpsRedirection();

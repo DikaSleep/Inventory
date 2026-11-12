@@ -40,21 +40,23 @@ namespace Latihan_Project.Controllers
 
         // mengambil data category berupa id
         [HttpGet("Category/{id}")]
-        public async Task<IActionResult> GetIdCategory(int id)
+        public async Task<IActionResult> GetIdCategory([FromRoute] int id)
         {
-            var category = await dbc.Categories.Where(u => u.CategoryId == id).Select(u => new
-            {
-                u.CategoryId,
-                u.CategoryName,
-                u.Description
-            }).FirstOrDefaultAsync();
+            var category = await dbc.Categories.FindAsync(id);
 
             if (category == null)
             {
-                return NotFound("Category Not Found");
+                return NotFound(new
+                {
+                    message = "Category Not Found"
+                });
             }
 
-            return Ok(category);
+            return Ok(new
+            {
+                message = "Category Found",
+                data = category
+            });
         }
 
         // Create Category Endpoint
@@ -140,23 +142,22 @@ namespace Latihan_Project.Controllers
         }
 
         [HttpGet("GetProduct/{id}")]
-        public async Task<IActionResult> GetIdProduct(int id)
+        public async Task<IActionResult> GetIdProduct([FromRoute]int id)
         {
-            var product = await dbc.Products.Where(p => p.ProductId == id).Select(p => new
-            {
-                p.ProductId,
-                p.ProductName,
-                p.Price,
-                p.Stock,
-                p.CategoryId
-            }).FirstOrDefaultAsync();
+            var product = await dbc.Products.FindAsync(id);
 
-            if(product == null)
+            if (product == null)
             {
-                return NotFound("Product Not Found");
+                return NotFound(new
+                {
+                    message = "Id Product Not Found"
+                });
             }
-
-            return Ok(product);
+            return Ok(new 
+            {
+                message = "Get Id Succes",
+                data = product
+            });
         }
 
         // endpoint Create Product

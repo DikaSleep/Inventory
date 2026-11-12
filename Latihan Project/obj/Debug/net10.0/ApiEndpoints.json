@@ -19,20 +19,15 @@
   },
   {
     "ContainingType": "Latihan_Project.Controllers.InventoryController",
-    "Method": "UpdateProduct",
-    "RelativePath": "api/Inventory",
-    "HttpMethod": "PUT",
+    "Method": "GetIdCategory",
+    "RelativePath": "api/Inventory/Category/{id}",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "result",
-        "Type": "Latihan_Project.Controllers.InventoryController\u002BProductRequest",
         "IsRequired": true
       }
     ],
@@ -124,6 +119,22 @@
   },
   {
     "ContainingType": "Latihan_Project.Controllers.InventoryController",
+    "Method": "GetIdProduct",
+    "RelativePath": "api/Inventory/GetProduct/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Latihan_Project.Controllers.InventoryController",
     "Method": "UpdateCategory",
     "RelativePath": "api/Inventory/Update/{id}",
     "HttpMethod": "PUT",
@@ -138,6 +149,27 @@
       {
         "Name": "result",
         "Type": "Latihan_Project.Controllers.InventoryController\u002BCategoryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Latihan_Project.Controllers.InventoryController",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/Inventory/UpdateProduct/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "result",
+        "Type": "Latihan_Project.Controllers.InventoryController\u002BProductRequest",
         "IsRequired": true
       }
     ],

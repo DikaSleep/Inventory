@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\C# Project\\Inventory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BFA96AB7-D35F-0E15-778F-CB8DA8937081}|Latihan Project\\Latihan Project.csproj|d:\\c# project\\inventory\\latihan project\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFA96AB7-D35F-0E15-778F-CB8DA8937081}|Latihan Project\\Latihan Project.csproj|solutionrelative:latihan project\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BFA96AB7-D35F-0E15-778F-CB8DA8937081}|Latihan Project\\Latihan Project.csproj|d:\\c# project\\inventory\\latihan project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFA96AB7-D35F-0E15-778F-CB8DA8937081}|Latihan Project\\Latihan Project.csproj|solutionrelative:latihan project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFA96AB7-D35F-0E15-778F-CB8DA8937081}|Latihan Project\\Latihan Project.csproj|d:\\c# project\\inventory\\latihan project\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFA96AB7-D35F-0E15-778F-CB8DA8937081}|Latihan Project\\Latihan Project.csproj|solutionrelative:latihan project\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFA96AB7-D35F-0E15-778F-CB8DA8937081}|Latihan Project\\Latihan Project.csproj|d:\\c# project\\inventory\\latihan project\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,13 +38,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "InventoryController.cs",
               "DocumentMoniker": "D:\\C# Project\\Inventory\\Latihan Project\\Controllers\\InventoryController.cs",
               "RelativeDocumentMoniker": "Latihan Project\\Controllers\\InventoryController.cs",
               "ToolTip": "D:\\C# Project\\Inventory\\Latihan Project\\Controllers\\InventoryController.cs",
               "RelativeToolTip": "Latihan Project\\Controllers\\InventoryController.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAqwFEAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAswAwBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-11T04:15:24.781Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "Latihan Project\\Models\\Product.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T04:14:06.264Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-11T04:14:06.264Z"
             },
             {
               "$type": "Document",
@@ -88,13 +87,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\C# Project\\Inventory\\Latihan Project\\Program.cs",
               "RelativeDocumentMoniker": "Latihan Project\\Program.cs",
               "ToolTip": "D:\\C# Project\\Inventory\\Latihan Project\\Program.cs",
               "RelativeToolTip": "Latihan Project\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBQAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-11T03:14:48.967Z",
               "EditorCaption": ""
